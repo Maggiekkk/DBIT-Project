@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feed4All</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../DBIT Project/CSS/styles.css">
+    <a href="volunteersignup.html" class="button">Sign Up as a Volunteer</a>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../Images/CompanyLogo.jpg" alt="Feed4All Logo" id="Logo">
+            <h1>Feed4All</h1>
+            <p><i>Feeding the nation, with every donation!</i></p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Food Banks & Shelters</a></li>
+                <li><a href="donation.html">Donations</a></li>
+                <li><a href="volunteersignup.html">Volunteer Sign-up</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Donate Food to Help Those in Need</h3>
+                <div class="form-group">
+                    <label for="donorName">Your Name:</label>
+                    <input type="text" id="donorName" name="donorName" required>
+                </div>
+                <div class="form-group">
+                    <label for="donorType">Type of user:</label>
+                    <input type="text" id="donorType" name="donorType" required>
+                    <select> 
+                        <option> Volunteer </option>
+                        <option> donor </option>
+                        <option> admin </option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="donorEmail">Your Email:</label>
+                    <input type="email" id="donorEmail" name="donorEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="donorPhone">Your Phone Number:</label>
+                    <input type="tel" id="donorPhone" name="donorPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="foodType">Type of Food:</label>
+                    <input type="text" id="foodType" name="foodType" required>
+                </div>
+                <div class="form-group">
+                    <label for="foodQuantity">Quantity:</label>
+                    <input type="number" id="foodQuantity" name="foodQuantity" required>
+                </div>
+                <button type="submit" class="button">Submit Donation</button>
+            </form>
+        </section>
+    </main>
+
+</body>
